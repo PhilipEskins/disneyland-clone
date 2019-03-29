@@ -14,7 +14,13 @@
 
     <div class="lowerNav">
       <img src="../assets/img/logo.png">
-      <span>Parks & Tickets</span>
+      <span (mouseover)="changeHidden($event)">Parks & Tickets</span>
+      <ul [class]="displayList()">
+        <li>Theme Parks</li>
+        <li>Tickets</li>
+        <li>Ticket Options</li>
+        <li>Photography</li>
+      </ul>
       <span>Places to Stay</span>
       <span>Things to Do</span>
       <span>Annual Passports</span>
