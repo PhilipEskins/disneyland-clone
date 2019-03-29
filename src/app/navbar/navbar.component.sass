@@ -1,7 +1,13 @@
+.wrapper
+  box-shadow: 4px 2px 0px rgba(0, 0, 0, .5)
+
 .navBar
   font-family: Avenir, Helvetica, Arial, sans-serif
   max-width: 1000px
   margin: auto
+
+.navBar::after
+  box-shadow: 0px 1px rgba(0,0,0,0.5)
 
 .upperNav
   font-size: 11px
@@ -12,13 +18,17 @@
     margin: 0px 20px
   .show
     color: #78899E
-
+  .links
+    display: flex
+    align-items: center
   input
     border-radius: 10px
+  .divider
+    font-size: 14px
 
 .lowerNav
   display: flex
   font-size: 14px
-  width: 89%
+  width: 90%
   justify-content: space-between
   align-items: center
