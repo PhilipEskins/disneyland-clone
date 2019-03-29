@@ -20,8 +20,8 @@
       <span>Annual Passports</span>
       <span>Shop</span>
       <span>Cart</span>
-      <span (mouseover)="displayList($event)">My Disneyland</span>
-      <ul class="disneyList">
+      <span (mouseover)="changeHidden($event)">My Disneyland</span>
+      <ul [class]="displayList()">
         <li>My Hotel Reservations</li>
         <li>My Dining Reservations</li>
         <li>My Annual Passports</li>

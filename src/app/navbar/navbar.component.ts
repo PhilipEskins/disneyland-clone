@@ -8,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
   isHidden: boolean = true;
 
-  displayList(event) {
-    this.isHidden = false;
+  changeHidden(event) {
+    this.isHidden = !this.isHidden;
     console.log(this.isHidden);
+  }
+
+  displayList() {
+    if(this.isHidden === true) {
+      return "hideList";
+    } else {
+      return "showList";
+    }
   }
 
   constructor() { }
