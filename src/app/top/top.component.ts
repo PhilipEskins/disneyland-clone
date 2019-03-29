@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopComponent implements OnInit {
 
+  adults: number = 2;
+  children: number = 0;
+
   constructor() { }
 
   ngOnInit() {

@@ -1,11 +1,23 @@
-<span>Price Your Vacation</span>
-<span>Dates</span>
-<input type="date">
-<span>Adults(18+)</span>
-<span>Children</span>
-<span>Hotel</span>
-<select>
-  <option>All Hotels</option>
-</select>
-<span>Accessible Rooms</span>
-<button>Find Hotels</button>
+<div class="wrapper">
+  <span class="title">Price Your Vacation</span>
+  <span class="dateTitle">Dates</span>
+  <input type="date" class="dateInput">
+  <span class="adultTitle">Adults(18+)</span>
+  <div class="adult">
+    <button class="adultSub">-</button>
+    <span class="adultNum">{{adults}}</span>
+    <button class="adultAdd">+</button>
+  </div>
+  <span class="childTitle">Children</span>
+  <div class="child">
+    <button class="childSub">-</button>
+    <span class="childNum">{{children}}</span>
+    <button class="childAdd">+</button>
+  </div>
+  <span class="hotelTitle">Hotel</span>
+  <select class="hotelSelect">
+    <option>All Hotels</option>
+  </select>
+  <span class="accessible">Accessible Rooms</span>
+  <button  class="button">Find Hotels</button>
+</div>
