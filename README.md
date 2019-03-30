@@ -1,27 +1,37 @@
-# Disneyland
+# Disneyland Clone
+
+#### _Application for Disneyland Clone, Last Updated 03-29-2019_
+
+#### By _**Philip Eskins**_
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+_This application is my attempt at recreating www.disneyland.com._
 
-## Code scaffolding
+## Process
+_I originally dove head first into this project without much thought because I believed I could replicate the landing page at least pretty easily. After getting part of the navbar done I realized it was quite a bit more complicated then I originally thought. Currently the clone is a major work in progress._
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Setup/Installation Requirements
 
-## Build
+* _Download repository from https://github.com/PhilipEskins/disneyland-clone/_
+* _Type npm install from the command line interface_
+* _Type ng serve --open from the command line interface_
+* _If you'd like to alter or see the code for the project, after downloading open the project up in your favorite code editor._
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Known Bugs
 
-## Running unit tests
+_Didn't make it very far in recreating the website. Its still a major work in progress._
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Support and contact details
 
-## Running end-to-end tests
+_If you have problems or would like to comment about something feel free to contact me at philipeskins@gmail.com_
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Technologies Used
 
-## Further help
+_This website uses HTML, SASS, JavaScript, and Angular._
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+*MIT*
+
+Copyright (c) 2019 **_Philip Eskins_**
