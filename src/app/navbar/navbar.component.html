@@ -15,7 +15,7 @@
     <div class="lowerNav">
       <img src="../assets/img/logo.png">
       <span (mouseover)="changeHidden($event)">Parks & Tickets</span>
-      <ul [class]="displayList()">
+      <ul class="hideList">
         <li>Theme Parks</li>
         <li>Tickets</li>
         <li>Ticket Options</li>
@@ -26,15 +26,17 @@
       <span>Annual Passports</span>
       <span>Shop</span>
       <span>Cart</span>
-      <span (mouseover)="changeHidden($event)">My Disneyland</span>
-      <ul [class]="displayList()">
-        <li>My Hotel Reservations</li>
-        <li>My Dining Reservations</li>
-        <li>My Annual Passports</li>
-        <li>My Photos</li>
-        <li>My Wishlist</li>
-        <li>Sign in or Create Account</li>
-      </ul>
+      <div class="myDisneyland">
+        <span class="disneyLink">My Disneyland</span>
+        <ul class="disneyContent">
+          <li>My Hotel Reservations</li>
+          <li>My Dining Reservations</li>
+          <li>My Annual Passports</li>
+          <li>My Photos</li>
+          <li>My Wishlist</li>
+          <li>Sign in or Create Account</li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>

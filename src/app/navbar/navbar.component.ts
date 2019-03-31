@@ -6,20 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.sass']
 })
 export class NavbarComponent implements OnInit {
-  isHidden: boolean = true;
-
-  changeHidden(event) {
-    this.isHidden = !this.isHidden;
-    console.log(this.isHidden);
-  }
-
-  displayList() {
-    if(this.isHidden === true) {
-      return "hideList";
-    } else {
-      return "showList";
-    }
-  }
+  // isHidden: boolean = true;
+  //
+  // changeHidden(event) {
+  //   this.isHidden = !this.isHidden;
+  //   console.log(this.isHidden);
+  // }
+  //
+  // displayList() {
+  //   if(this.isHidden === true) {
+  //     return "hideList";
+  //   } else {
+  //     return "showList";
+  //   }
+  // }
 
   constructor() { }
 
