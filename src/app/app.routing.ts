@@ -2,6 +2,7 @@ import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { TopComponent } from './top/top.component';
 import { AttractionsComponent } from './attractions/attractions.component';
+import { AttractionsDetailComponent } from './attractions-detail/attractions-detail.component';
 
 const appRoutes: Routes = [
   {
@@ -11,6 +12,10 @@ const appRoutes: Routes = [
   {
     path: 'attractions',
     component: AttractionsComponent
+  },
+  {
+    path: 'attractions/:id',
+    component: AttractionsDetailComponent
   }
 ];
 
