@@ -1,0 +1,34 @@
+<h3>Add new Attraction</h3>
+<div>
+  <div>
+    <label>Attraction ID:</label>
+    <br>
+    <input #newID>
+  </div>
+  <div>
+    <label>Attraction Name:</label>
+    <br>
+    <input #newName>
+  </div>
+  <div>
+    <label>Attraction Height:</label>
+    <br>
+    <input #newHeight>
+  </div>
+  <div>
+    <label>Attraction Type:</label>
+    <br>
+    <input #newType>
+  </div>
+  <div>
+    <label>Attraction Location:</label>
+    <br>
+    <input #newLocation>
+  </div>
+  <div>
+    <label>Attraction Detail:</label>
+    <br>
+    <textarea #newDetail></textarea>
+  </div>
+</div>
+<button (click)="submitForm(newID.value, newName.value, newHeight.value, newType.value, newLocation.value, newDetail.value)">Add</button>

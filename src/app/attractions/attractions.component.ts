@@ -13,8 +13,9 @@ import { FirebaseListObservable } from 'angularfire2/database';
 export class AttractionsComponent implements OnInit {
   attractions: FirebaseListObservable<any[]>;
 
-  goToDetailPage(clickedAttraction: Attraction) {
-    this.router.navigate(['attractions', clickedAttraction.id]);
+  goToDetailPage(clickedAttraction) {
+    this.router.navigate(['attractions', clickedAttraction.$key]);
+    // this.router.navigate(['attractions', clickedAttraction.id]);
   }
 
   constructor(private router: Router, private attractionService: AttractionService) { }

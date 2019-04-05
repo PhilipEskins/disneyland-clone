@@ -9,6 +9,7 @@ import { AttractionsDetailComponent } from './attractions-detail/attractions-det
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { AdminComponent } from './admin/admin.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -23,7 +24,8 @@ export const firebaseConfig = {
     NavbarComponent,
     TopComponent,
     AttractionsComponent,
-    AttractionsDetailComponent
+    AttractionsDetailComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

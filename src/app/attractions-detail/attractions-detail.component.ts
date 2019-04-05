@@ -3,6 +3,7 @@ import { ActivatedRoute, Params, Router } from '@angular/router';
 import { Location } from '@angular/common';
 import { Attraction } from '../attractions.model';
 import { AttractionService } from '../attraction.service';
+import { FirebaseObjectObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-attractions-detail',
@@ -11,8 +12,8 @@ import { AttractionService } from '../attraction.service';
   providers: [AttractionService]
 })
 export class AttractionsDetailComponent implements OnInit {
-  attractionId: string = null;
-  attractionToDisplay: Attraction;
+  attractionId: string;
+  attractionToDisplay;
 
   constructor(
     private route: ActivatedRoute,
