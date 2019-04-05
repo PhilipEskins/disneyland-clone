@@ -1,16 +1,20 @@
 import { Injectable } from '@angular/core';
 import { Attraction } from './attractions.model';
 import { ATTRACTIONS } from './mock-attractions';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AttractionService {
+  attractions: FirebaseListObservable<any[]>;
 
-  constructor() { }
+  constructor(private database: AngularFireDatabase) {
+    this.attractions = database.list('attractions');
+  }
 
   getAttractions() {
-    return ATTRACTIONS;
+    return this.attractions;
   }
 
   getAttractionById(attractionId: string) {
