@@ -1,0 +1,44 @@
+{"attractions": [{
+  "id": "alice-in-wonderland",
+  "name": "Alice in Wonderland",
+  "height": "Any Height",
+  "type": ["Slow Rides", "Dark", "Loud"],
+  "location": "Disneyland Park, Fantasyland",
+  "detail": "Take a topsy-turvy trip into the nonsensical world of Disney’s Alice in Wonderland aboard an oversized caterpillar."
+  }, {
+    "id": "animation-academy",
+    "name": "Animation Academy",
+    "height": "Any Height",
+    "type": ["Character Experience", "Discovery", "Indoor", "Interactive"],
+    "location": "Disney California Adventure Park, Hollywood Land",
+    "detail": "Draw your very own character sketch under the guidance of a talented animator."
+  }, {
+    "id": "astro-orbitor",
+    "name": "Astro Orbitor",
+    "height": "Any Height",
+    "type": ["Spinning", "Interactive"],
+    "location": "Disneyland Park, Tomorrowland",
+    "detail": "Pilot your very own rocket ship high in the sky amid a gleaming constellation of orbiting planets."
+  }, {
+    "id": "autopia",
+    "name": "Autopia",
+    "height": "32in (81cm) or taller",
+    "type": ["Slow Rides", "Loud", "1955 Original Ride", "Interactive", "Rider Switch"],
+    "location": "Disneyland Park, Tomorrowland",
+    "detail": "Put the pedal to the metal on an unforgettable road trip along a miniature motorway."
+  }, {
+    "id": "bakery-tour",
+    "name": "The Bakery Tour",
+    "height": "Any Height",
+    "type": ["Discovery", "Indoor"],
+    "location": "Disney California Adventure Park, Pacific Wharf",
+    "detail": "Go on a tasty tour of a real bakery and see how the world-famous San Francisco sourdough bread is made."
+  }, {
+    "id": "big-thunder-mountain-railroad",
+    "name": "Big Thunder Mountain Railroad",
+    "height": "40in (102cm) or taller",
+    "type": ["Small Drops", "Thrill Rides", "Dark", "Loud", "FASTPASS", "Rider Switch"],
+    "location": "Disneyland Park, Frontierland",
+    "detail": "Streak through a haunted gold mine aboard a speeding train on this thrilling coaster-style ride."
+  }]
+}

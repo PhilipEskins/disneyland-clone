@@ -6,6 +6,16 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { TopComponent } from './top/top.component';
 import { AttractionsComponent } from './attractions/attractions.component';
 import { AttractionsDetailComponent } from './attractions-detail/attractions-detail.component';
+import { masterFirebaseConfig } from './api-keys';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+};
 
 @NgModule({
   declarations: [
@@ -17,7 +27,9 @@ import { AttractionsDetailComponent } from './attractions-detail/attractions-det
   ],
   imports: [
     BrowserModule,
-    routing
+    routing,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
