@@ -10,7 +10,23 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 _This application is my attempt at recreating www.disneyland.com._
 
+## Current Features
+
+* Video will actually Play
+* Nav bar has a nice drop down effect (only for My Disneyland at this time)
+* Nav bar stays on top as you scroll down.
+
+## Future Features
+
+* Get buttons to work to add more people to your party
+* Add attractions page
+* Connect to database to get attraction information
+* Flush out the nav bar some more
+
 ## Process
+###### Monday 4/1/19
+_Adjusted nav bar more, it now will stay open so you can select items in the list_
+
 ###### Sunday 3/31/19
 _After some research and soul searching I found the answer for the nav bar issue and was able to progress with the next section. The nav bar isn't completely finished at this time, only the last one for "My Disneyland" does the correct drop down, but its easy to replicate for the others._
 
