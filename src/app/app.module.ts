@@ -10,6 +10,9 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AdminComponent } from './admin/admin.component';
+import { EditAttractionComponent } from './edit-attraction/edit-attraction.component';
+import { FormsModule } from '@angular/forms';
+
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -25,13 +28,15 @@ export const firebaseConfig = {
     TopComponent,
     AttractionsComponent,
     AttractionsDetailComponent,
-    AdminComponent
+    AdminComponent,
+    EditAttractionComponent
   ],
   imports: [
     BrowserModule,
     routing,
     AngularFireModule.initializeApp(firebaseConfig),
-    AngularFireDatabaseModule
+    AngularFireDatabaseModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

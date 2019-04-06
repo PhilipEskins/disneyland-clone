@@ -1,0 +1,22 @@
+<h4>Edit Attraction</h4>
+<label>Attraction URL (ie 'alice-in-wonderland'):</label>
+<input [(ngModel)]="selectedAttraction.id">
+<br>
+<label>Attraction Name:</label>
+<input [(ngModel)]="selectedAttraction.name">
+<br>
+<label>Required Height:</label>
+<input [(ngModel)]="selectedAttraction.height">
+<br>
+<div *ngFor="let type of selectedAttraction.type">
+  <label>Attraction Type:</label>
+  <input [(ngModel)]="type">
+</div>
+<br>
+<label>Attraction Location:</label>
+<input [(ngModel)]="selectedAttraction.location">
+<br>
+<label>Attraction Detail:</label>
+<input [(ngModel)]="selectedAttraction.detail">
+<br>
+<hr>

@@ -1,7 +1,7 @@
 <h3>Add new Attraction</h3>
 <div>
   <div>
-    <label>Attraction ID:</label>
+    <label>Attraction URL (ie 'alice-in-wonderland'):</label>
     <br>
     <input #newID>
   </div>
@@ -11,7 +11,7 @@
     <input #newName>
   </div>
   <div>
-    <label>Attraction Height:</label>
+    <label>Required Height:</label>
     <br>
     <input #newHeight>
   </div>
@@ -32,3 +32,8 @@
   </div>
 </div>
 <button (click)="submitForm(newID.value, newName.value, newHeight.value, newType.value, newLocation.value, newDetail.value)">Add</button>
+
+<div>
+  <hr>
+  <app-attractions></app-attractions>
+</div>
