@@ -15,15 +15,19 @@ _This application is my attempt at recreating www.disneyland.com._
 * Video will actually Play
 * Nav bar has a nice drop down effect (only for My Disneyland at this time)
 * Nav bar stays on top as you scroll down.
+* Attractions page (Under 'Things to Do')
+* Attraction information comes from a firebase database, will provide a link to the live site once I have it more flushed out
 
 ## Future Features
 
 * Get buttons to work to add more people to your party
-* Add attractions page
-* Connect to database to get attraction information
-* Flush out the nav bar some more
+* Flush out the nav bar and landing page some more
+* Add styling to attraction section
 
 ## Process
+###### Friday 4/5/19
+_Today was a better day, I understood the concepts of Angular a bit better working through the lessons again. I started out making a router for the attraction page. Then went on to make a dynamic router for showing some attraction details. Started implementing database functionality then ran into an issue with different version not working well together. After about an hour trying to fix the issue one of my classmates was able to help me out since he had the same problem earlier. Was able to get the database set up and you can currently add new attractions to the page and get the details from the database. Will continue to work on this project and will deploy it to firebase hopefully before the end of the weekend._
+
 ###### Monday 4/1/19
 _Adjusted nav bar more, it now will stay open so you can select items in the list_
 
