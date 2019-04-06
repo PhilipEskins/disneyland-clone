@@ -37,4 +37,9 @@ export class AttractionService {
       detail: localUpdatedAttraction.detail
     })
   }
+
+  deleteAttraction(localAttractionToDelete) {
+    const attractionEntryInFirebase = this.getAttractionById(localAttractionToDelete.$key);
+    attractionEntryInFirebase.remove();
+  }
 }

@@ -20,4 +20,10 @@ export class EditAttractionComponent implements OnInit {
     console.log(attractionToUpdate);
   }
 
+  beginDeletingAttraction(attractionToDelete) {
+    if(confirm("Are you sure you want to delete this attraction?")) {
+      this.attractionService.deleteAttraction(attractionToDelete);
+    }
+  }
+
 }

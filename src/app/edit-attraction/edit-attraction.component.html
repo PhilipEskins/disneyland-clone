@@ -8,10 +8,8 @@
 <label>Required Height:</label>
 <input [(ngModel)]="selectedAttraction.height">
 <br>
-<!-- <div *ngFor="let type of selectedAttraction.type"> -->
-  <label>Attraction Type (seperate with ','):</label>
-  <input [(ngModel)]="selectedAttraction.type">
-<!-- </div> -->
+<label>Attraction Type (seperate using ','):</label>
+<input [(ngModel)]="selectedAttraction.type">
 <br>
 <label>Attraction Location:</label>
 <input [(ngModel)]="selectedAttraction.location">
@@ -19,5 +17,6 @@
 <label>Attraction Detail:</label>
 <input [(ngModel)]="selectedAttraction.detail">
 <br>
-<button (click)="beginUpdatingAttraction(selectedAttraction)">Update</button>
+<button (click)="beginUpdatingAttraction(selectedAttraction)">Update</button><br>
+<button (click)="beginDeletingAttraction(selectedAttraction)">Delete</button>
 <hr>
