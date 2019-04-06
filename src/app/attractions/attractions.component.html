@@ -1,8 +1,8 @@
 <div class="attraction">
 <h2>Attractions</h2>
 
-<div *ngFor="let attraction of attractions | async" (click)="goToDetailPage(attraction)">
-  <h3><span class="attractionName">{{attraction.name}}</span></h3>
+<div *ngFor="let attraction of attractions | async">
+  <h3 (click)="goToDetailPage(attraction)"><span class="attractionName">{{attraction.name}}</span></h3>
   <span class="attractionHeight">Height: {{attraction.height}}</span><br>
   <div >
   <span class="attractionType" *ngFor="let type of attraction.type">{{type}}, </span>

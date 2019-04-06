@@ -1,6 +1,6 @@
 # Disneyland Clone
 
-#### _Application for Disneyland Clone, Last Updated 03-31-2019_
+#### _Application for Disneyland Clone_
 
 #### By _**Philip Eskins**_
 

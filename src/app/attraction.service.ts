@@ -23,10 +23,18 @@ export class AttractionService {
 
   getAttractionById(attractionId: string) {
     return this.database.object('attractions/' + attractionId);
-    // for (let i = 0; i<=ATTRACTIONS.length - 1; i++) {
-    //   if (ATTRACTIONS[i].id===attractionId) {
-    //     return ATTRACTIONS[i];
-    //   }
-    // }
+  }
+
+  updateAttraction(localUpdatedAttraction) {
+    const attractionEntryInFirebase = this.getAttractionById(localUpdatedAttraction.$key);
+    const typeArr = localUpdatedAttraction.type.split(",");
+    attractionEntryInFirebase.update({
+      id: localUpdatedAttraction.id,
+      name: localUpdatedAttraction.name,
+      height: localUpdatedAttraction.height,
+      type: typeArr,
+      location: localUpdatedAttraction.location,
+      detail: localUpdatedAttraction.detail
+    })
   }
 }
