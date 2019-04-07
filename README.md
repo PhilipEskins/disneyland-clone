@@ -14,7 +14,7 @@ Live version can be found at https://disneyland-clone.firebaseapp.com/
 ## Current Features
 
 * Video will actually Play (refresh if it doesn't on first load)
-* Nav bar has a nice drop down effect (only for My Disneyland at this time)
+* Nav bar has a nice drop down effect (only for My Disneyland and Things to Do at this time)
 * Nav bar stays on top as you scroll down.
 * Attractions page (Under 'Things to Do')
 * Attraction information comes from a firebase database, will provide a link to the live site once I have it more flushed out
