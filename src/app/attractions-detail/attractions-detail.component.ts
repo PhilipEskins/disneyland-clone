@@ -24,7 +24,11 @@ export class AttractionsDetailComponent implements OnInit {
     this.route.params.forEach((urlParameters) => {
       this.attractionId = urlParameters['id'];
     });
-    this.attractionToDisplay = this.attractionService.getAttractionById(this.attractionId);
+    this.attractionService.getAttractionById(this.attractionId).subscribe(dataLastEmittedFromObserver => {
+      this.attractionToDisplay = dataLastEmittedFromObserver;
+      console.log(this.attractionToDisplay);
+    })
+    // this.attractionToDisplay = this.attractionService.getAttractionById(this.attractionId);
   }
 
 }

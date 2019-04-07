@@ -1,6 +1,6 @@
 <div>
-  <h3>{{(attractionToDisplay | async)?.name}}</h3>
-  <h4>{{(attractionToDisplay | async)?.location}}</h4>
-  <p>{{(attractionToDisplay | async)?.detail}}</p>
+  <h3>{{attractionToDisplay?.name}}</h3>
+  <h4>{{attractionToDisplay?.location}}</h4>
+  <p>{{attractionToDisplay?.detail}}</p>
   <a routerLink="/attractions">Back</a>
 </div>

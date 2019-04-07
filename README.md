@@ -12,11 +12,12 @@ _This application is my attempt at recreating www.disneyland.com._
 
 ## Current Features
 
-* Video will actually Play
+* Video will actually Play (refresh if it doesn't on first load)
 * Nav bar has a nice drop down effect (only for My Disneyland at this time)
 * Nav bar stays on top as you scroll down.
 * Attractions page (Under 'Things to Do')
 * Attraction information comes from a firebase database, will provide a link to the live site once I have it more flushed out
+* Admin page to add/edit/delete attractions
 
 ## Future Features
 
