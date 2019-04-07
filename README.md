@@ -9,6 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Description
 
 _This application is my attempt at recreating www.disneyland.com._
+Live version can be found at https://disneyland-clone.firebaseapp.com/
 
 ## Current Features
 
@@ -26,18 +27,21 @@ _This application is my attempt at recreating www.disneyland.com._
 * Add styling to attraction section
 
 ## Process
-###### Friday 4/5/19
+##### Saturday 4/6/19
+_Was able to add the ability to add/edit/delete attractions right from the website. Also got the website live deployed to Firebase. Which can be seen here https://disneyland-clone.firebaseapp.com/. Hope you enjoy my site._
+
+##### Friday 4/5/19
 _Today was a better day, I understood the concepts of Angular a bit better working through the lessons again. I started out making a router for the attraction page. Then went on to make a dynamic router for showing some attraction details. Started implementing database functionality then ran into an issue with different version not working well together. After about an hour trying to fix the issue one of my classmates was able to help me out since he had the same problem earlier. Was able to get the database set up and you can currently add new attractions to the page and get the details from the database. Will continue to work on this project and will deploy it to firebase hopefully before the end of the weekend._
 
-###### Monday 4/1/19
+##### Monday 4/1/19
 _Adjusted nav bar more, it now will stay open so you can select items in the list_
 
-###### Sunday 3/31/19
+##### Sunday 3/31/19
 _After some research and soul searching I found the answer for the nav bar issue and was able to progress with the next section. The nav bar isn't completely finished at this time, only the last one for "My Disneyland" does the correct drop down, but its easy to replicate for the others._
 
 _I also added the video on the page along with the "Plan your Vacation" bar and some text on top of the video. Feel more confident about this project now. Though I think this will take longer then the few weeks we have to work on it. In the future the buttons for "Plan my Vacation" will allow you to add more people to your party._
 
-###### Friday 3/29/19
+##### Friday 3/29/19
 _Spent 8 hours on this project on Friday 3/29/2019. In that time I got the basic framework up for the nav bar and then ran into a major issue with the dropdown function of the nav bar. Fell into the imposter syndrome blackhole._
 
 ## Setup/Installation Requirements
